@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.preview-content table {
+  width: 100% !important;
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.preview-content th, 
+.preview-content td {
+  border: 1px solid black;
+  padding: 4px 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.preview-content img {
+  max-width: 100%;
+  height: auto;
+}
